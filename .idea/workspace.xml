@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d7efb07-d895-4478-b493-9951ecd36e2c" name="Default Changelist" comment="" />
+    <list default="true" id="5d7efb07-d895-4478-b493-9951ecd36e2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SESSION4/Point và MoveablePoint/Moveable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION4/Point và MoveablePoint/Point.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION4/Point và MoveablePoint/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION4/Point2D_Point3D/Point2D.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION4/Point2D_Point3D/Point3D.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION4/Point2D_Point3D/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +34,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -51,7 +59,8 @@
       <option name="presentableId" value="Default" />
       <updated>1570410417494</updated>
       <workItem from="1570410452558" duration="801000" />
-      <workItem from="1570413363496" duration="15123000" />
+      <workItem from="1570413363496" duration="15726000" />
+      <workItem from="1570496420305" duration="16012000" />
     </task>
     <servers />
   </component>
@@ -63,7 +72,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
