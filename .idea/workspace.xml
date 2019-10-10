@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d7efb07-d895-4478-b493-9951ecd36e2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SESSION4/Point và MoveablePoint/Moveable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION4/Point và MoveablePoint/Point.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION4/Point và MoveablePoint/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION4/Point2D_Point3D/Point2D.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION4/Point2D_Point3D/Point3D.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION4/Point2D_Point3D/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION5/Resizeable/Circles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION5/Resizeable/Rectangles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION5/Resizeable/Resizeable .php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION5/Resizeable/Squares.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION5/Resizeable/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION5/studentsManager/Student.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION5/studentsManager/StudentsManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION5/studentsManager/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION5/studentsManager/add-Studen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION5/studentsManager/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION5/studentsManager/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION5/studentsManager/disphay.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION5/studentsManager/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION5/studentsManager/functionEdit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,7 +68,11 @@
       <updated>1570410417494</updated>
       <workItem from="1570410452558" duration="801000" />
       <workItem from="1570413363496" duration="15726000" />
-      <workItem from="1570496420305" duration="16012000" />
+      <workItem from="1570496420305" duration="17621000" />
+      <workItem from="1570583036657" duration="4807000" />
+      <workItem from="1570603304794" duration="10402000" />
+      <workItem from="1570669631739" duration="5364000" />
+      <workItem from="1570689128280" duration="10347000" />
     </task>
     <servers />
   </component>
