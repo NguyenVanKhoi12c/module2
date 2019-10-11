@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d7efb07-d895-4478-b493-9951ecd36e2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SESSION5/Resizeable/Circles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION5/Resizeable/Rectangles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION5/Resizeable/Resizeable .php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION5/Resizeable/Squares.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION5/Resizeable/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION5/studentsManager/Student.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION5/studentsManager/StudentsManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION5/studentsManager/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION5/studentsManager/add-Studen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION5/studentsManager/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION5/studentsManager/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION5/studentsManager/disphay.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION5/studentsManager/edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION5/studentsManager/functionEdit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION5/Interface-Comparable/Circle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION5/Interface-Comparable/Cylinder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION5/Interface-Comparable/Rectangle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION5/Interface-Comparable/Shape.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION5/Interface-Comparable/Square.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION5/Interface-Comparable/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION5/interface__Comparable/Circle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION5/interface__Comparable/Comparable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION5/interface__Comparable/ComparableCircle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION5/interface__Comparable/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SESSION5/Resizeable/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/SESSION5/Resizeable/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +69,7 @@
       <workItem from="1570583036657" duration="4807000" />
       <workItem from="1570603304794" duration="10402000" />
       <workItem from="1570669631739" duration="5364000" />
-      <workItem from="1570689128280" duration="10347000" />
+      <workItem from="1570689128280" duration="18868000" />
     </task>
     <servers />
   </component>
