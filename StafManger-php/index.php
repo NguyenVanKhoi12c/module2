@@ -14,25 +14,43 @@ include_once "class/StudentManager.php";
     <title>Document</title>
 </head>
 <body>
-<table border="1">
-    <tr>
-        <td style="width: 200px">ID</td>
-        <td style="width: 200px">Name</td>
-        <td style="width: 200px">Phone Number</td>
-    </tr>
-
-    <?php
-    $manager = new StudentManager();
-    $students = $manager->getAll();
-    foreach ($students as $key => $student): ?>
+<form action="CRUD/insert.php" method="get">
+    <table>
         <tr>
-            <td><?php echo ++$key ?></td>
-            <td><?php echo $student->name; ?></td>
-            <td><?php echo $student->phone; ?></td>
+            <td>Name:</td>
+            <td><input type="text" placeholder="Input Name" name="name"></td>
         </tr>
-    <?php endforeach; ?>
+        <tr>
+            <td>Phone Number:</td>
+            <td><input type="text" placeholder="Input Phone Number" name="phone"></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="insert">
+            </td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <td style="width: 200px">ID</td>
+            <td style="width: 200px">Name</td>
+            <td style="width: 200px">Phone Number</td>
+        </tr>
 
-</table>
+        <?php
+        $manager = new StudentManager();
+        $students = $manager->getAll();
+        foreach ($students as $key => $student): ?>
+            <tr>
+                <td><?php echo ++$key ?></td>
+                <td><?php echo $student->name; ?></td>
+                <td><?php echo $student->phone; ?></td>
+                <td><a href="CRUD/delete.php?id=<?php echo $student->id ?>">Del</a></td>
+                <td><a href="CRUD/edit.php?id=<?php echo $student->id ?>">Edit</a></td>
+            </tr>
+        <?php endforeach; ?>
+
+    </table>
 </form>
 </body>
 </html>

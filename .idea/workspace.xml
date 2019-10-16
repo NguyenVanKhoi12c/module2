@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d7efb07-d895-4478-b493-9951ecd36e2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/StafManger-php/CRUD/INSERT.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StafManger-php/CRUD/edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StafManger-php/class/DBConnect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StafManger-php/class/Student.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StafManger-php/class/StudentManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StafManger-php/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION7/php-cleancode-refactoring-exercise/TennisGame.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION7/php-cleancode-refactoring-method-extraction/cylinder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StafManger-php/class/StudentManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/StafManger-php/class/StudentManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StafManger-php/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/StafManger-php/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +74,7 @@
       <workItem from="1571040796450" duration="2476000" />
       <workItem from="1571114305909" duration="19320000" />
       <workItem from="1571155369336" duration="2098000" />
-      <workItem from="1571187345133" duration="5392000" />
+      <workItem from="1571187345133" duration="14592000" />
     </task>
     <servers />
   </component>
@@ -95,15 +93,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/StafManger-php/class/StudentManager.php</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

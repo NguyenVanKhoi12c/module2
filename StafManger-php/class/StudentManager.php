@@ -25,28 +25,29 @@ class StudentManager
         }
         return $students;
     }
+
+    function insert($student)
+    {
+        $stmt = $this->studentDB->prepare('INSERT INTO students(name, phone) VALUES (:name , :phone)');
+        $stmt->bindParam(':name', $student->name);
+        $stmt->bindParam(':phone', $student->phone);
+        $stmt->execute();
+    }
+
+    function delete($id)
+    {
+        $stmt = $this->studentDB->prepare('DELETE FROM students WHERE id=:id');
+        $stmt->bindParam(':id', $id);
+        $stmt->execute();
+        return $stmt->fetch();
+    }
+
+    function update($id, $student)
+    {
+        $stmt = $this->studentDB->prepare('UPDATE students SET name=:name,phone=:phone WHERE id=:id');
+        $stmt->bindParam(':name', $student->name);
+        $stmt->bindParam(':phone', $student->phone);
+        $stmt->bindParam(':id', $id);
+        $stmt->execute();
+    }
 }
-//    function insert($student)
-//    {
-//        $stmt = $this->studentDB->prepare('INSERT INTO students(name, phone) VALUES (:name, :phone)');
-//        $stmt->bindParam(':name', $student->name);
-//        $stmt->execute();
-//    }
-//
-//    function delete($id)
-//    {
-//        $stmt = $this->studentDB->prepare('DELETE FROM students WHERE id=:id');
-//        $stmt->bindParam(':id', $id);
-//        $stmt->execute();
-//        return $stmt->fetch();
-//    }
-//
-//    function update($id, $student)
-//    {
-//        $stmt = $this->studentDB->prepare('UPDATE students SET name=:name,phone=:phone WHERE id=:id');
-//        $stmt->bindParam(':name', $student->name);
-//        $stmt->bindParam(':phone', $student->phone);
-//        $stmt->bindParam(':id', $id);
-//        $stmt->execute();
-//    }
-//}
