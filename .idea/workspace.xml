@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d7efb07-d895-4478-b493-9951ecd36e2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SESSION6/Class_List_simple/ArrayList.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION6/Class_List_simple/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION6/class_linkedList_basic/LinkList.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION6/class_linkedList_basic/Nodes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION6/class_linkedList_basic/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION6/method_LinkedList/MyLinkedList.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION6/method_LinkedList/Node.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION6/method_LinkedList/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION6/method_arrayList/Mylist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SESSION6/method_arrayList/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StafManger-php/CRUD/INSERT.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StafManger-php/CRUD/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StafManger-php/class/DBConnect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StafManger-php/class/Student.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StafManger-php/class/StudentManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StafManger-php/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,6 +35,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Module2\StafManger-php\class" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -71,7 +72,11 @@
       <workItem from="1570689128280" duration="19669000" />
       <workItem from="1570774994091" duration="5002000" />
       <workItem from="1570947028834" duration="108000" />
-      <workItem from="1571014679382" duration="3152000" />
+      <workItem from="1571014679382" duration="3912000" />
+      <workItem from="1571040796450" duration="2476000" />
+      <workItem from="1571114305909" duration="19320000" />
+      <workItem from="1571155369336" duration="2098000" />
+      <workItem from="1571187345133" duration="5392000" />
     </task>
     <servers />
   </component>
@@ -90,5 +95,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/StafManger-php/class/StudentManager.php</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
