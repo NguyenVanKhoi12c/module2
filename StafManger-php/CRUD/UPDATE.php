@@ -7,9 +7,12 @@ include_once '../class/DBConnect.php';
 $manager = new StudentManager();
 
 
-$id = $_GET['id'];
-$name = $_GET['name'];
-$phone = $_GET['phone'];
-$student = new Student($name, $phone);
+$id = $_POST['id'];
+$name = $_POST['name'];
+$phone = $_POST['phone'];
+$image = $_FILES['image']['name'];
+$target = "../upload/" . basename($image);
+$student = new Student($name, $phone,$target);
 $manager->update($id, $student);
+move_uploaded_file($_FILES['image']['tmp_name'], $target);
 header("Location:../index.php");

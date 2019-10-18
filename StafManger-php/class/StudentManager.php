@@ -19,7 +19,7 @@ class StudentManager
         $result = $stmt->fetchAll();
         $students = [];
         foreach ($result as $value) {
-            $student = new Student($value['name'], $value['phone']);
+            $student = new Student($value['name'], $value['phone'],$value['image']);
             $student->id = $value['id'];
             array_push($students, $student);
         }
@@ -28,9 +28,10 @@ class StudentManager
 
     function insert($student)
     {
-        $stmt = $this->studentDB->prepare('INSERT INTO students(name, phone) VALUES (:name , :phone)');
+        $stmt = $this->studentDB->prepare('INSERT INTO students(name, phone,image) VALUES (:name , :phone,:image)');
         $stmt->bindParam(':name', $student->name);
         $stmt->bindParam(':phone', $student->phone);
+        $stmt->bindParam(':image', $student->image);
         $stmt->execute();
     }
 
@@ -41,12 +42,19 @@ class StudentManager
         $stmt->execute();
         return $stmt->fetch();
     }
+    function findStudentById($id){
+        $stmt = $this->studentDB->prepare('SELECT name,phone,image FROM students WHERE id=:id');
+        $stmt->bindParam("id",$id);
+        $stmt->execute();
+        return $stmt->fetch();
+    }
 
     function update($id, $student)
     {
-        $stmt = $this->studentDB->prepare('UPDATE students SET name=:name,phone=:phone WHERE id=:id');
+        $stmt = $this->studentDB->prepare('UPDATE students SET name=:name,phone=:phone,image=:image WHERE id=:id');
         $stmt->bindParam(':name', $student->name);
         $stmt->bindParam(':phone', $student->phone);
+        $stmt->bindParam(':image', $student->image);
         $stmt->bindParam(':id', $id);
         $stmt->execute();
     }

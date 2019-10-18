@@ -8,6 +8,7 @@ $index = $_GET['id'];
 $stmt = $manager->findStudentById($index);
 $name = $stmt['name'];
 $phone = $stmt['phone'];
+$image = $stmt['image']
 ?>
 <!doctype html>
 <html lang="en">
@@ -19,43 +20,32 @@ $phone = $stmt['phone'];
     <title>Document</title>
 </head>
 <body>
-<form action="update.php" method="get">
-    <table>
-        <tr style="display: none">
-            <td><input type="text" name="id" value="<?php echo $index ?>"></td>
-        </tr>
-        <tr>
-            <td>Name:</td>
-            <td><input type="text" name="name" value="<?php echo $name ?>"></td>
-        </tr>
-        <tr>
-            <td>Phone Number:</td>
-            <td><input type="text" name="phone" value="<?php echo $phone ?>"></td>
-        </tr>
-        <tr>
-            <td>
-                <input type="submit" value="update">
-            </td>
-        </tr>
-    </table>
-    <table>
-        <tr>
-            <td style="width: 200px">ID</td>
-            <td style="width: 200px">Name</td>
-            <td style="width: 200px">Phone Number</td>
-        </tr>
+   <form action="UPDATE.php" method="post" enctype="multipart/form-data">
+       <table>
+           <tr style="display: none">
+               <td><input type="text" name="id" value="<?php echo $index ?>"></td>
+           </tr>
+           <tr>
+               <td>Name:</td>
+               <td><input type="text" name="name" value="<?php echo $name ?>"></td>
+           </tr>
+           <tr>
+               <td>Phone Number:</td>
+               <td><input type="text" name="phone" value="<?php echo $phone ?>"></td>
+           </tr>
+           <tr>
+               <td>image</td>
+               <td><img src="../upload/<?php echo $image?>" alt="<?php echo $id ?>"><input type="file" name="image">
+               </td>
+           </tr>
+           <tr>
+               <td>
+                   <input type="submit" value="update">
+               </td>
+           </tr>
+       </table>
+   </form>
 
-        <?php
-        $students = $manager->getAll();
-        foreach ($students as $key => $student): ?>
-            <tr>
-                <td><?php echo ++$key ?></td>
-                <td><?php echo $student->name; ?></td>
-                <td><?php echo $student->phone; ?></td>
-            </tr>
-        <?php endforeach; ?>
-    </table>
-</form>
 
 </body>
 </html>
