@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d7efb07-d895-4478-b493-9951ecd36e2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/classicmodrls/CRUD/del.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classicmodrls/class/Customers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classicmodrls/class/DBconnect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classicmodrls/class/Order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classicmodrls/class/OrderManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classicmodrls/class/Pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classicmodrls/class/Products.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classicmodrls/class/StatusConstant.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classicmodrls/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classicmodrls/order_detail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StafManger-php/CRUD/INSERT.php" beforeDir="false" afterPath="$PROJECT_DIR$/StafManger-php/CRUD/INSERT.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StafManger-php/CRUD/UPDATE.php" beforeDir="false" afterPath="$PROJECT_DIR$/StafManger-php/CRUD/UPDATE.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StafManger-php/CRUD/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/StafManger-php/CRUD/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StafManger-php/class/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/StafManger-php/class/Student.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StafManger-php/class/StudentManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/StafManger-php/class/StudentManager.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StafManger-php/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/StafManger-php/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,7 +87,9 @@
       <workItem from="1571187345133" duration="15185000" />
       <workItem from="1571273818546" duration="1931000" />
       <workItem from="1571293888889" duration="6500000" />
-      <workItem from="1571360626467" duration="3887000" />
+      <workItem from="1571360626467" duration="9114000" />
+      <workItem from="1571575342275" duration="11470000" />
+      <workItem from="1571792612652" duration="596000" />
     </task>
     <servers />
   </component>
