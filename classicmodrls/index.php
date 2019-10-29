@@ -58,7 +58,7 @@ $orders = $managerOrder->getOrderLimitPage($start, $pagition->limit);
 <?php
 $pagLink = "<ul class='pagination'>";
 for ($i = 1; $i <= $total_pages; $i++) {
-    $pagLink .= "<li class='page-item'><a class='page-link' href='index.php?page=" . $i . "'>" . $i . "</a></li>";
+    $pagLink .= "<li class='page-item'><a class='page-link' href='Create_object.php?page=" . $i . "'>" . $i . "</a></li>";
 }
 echo $pagLink . "</ul>";
 ?>

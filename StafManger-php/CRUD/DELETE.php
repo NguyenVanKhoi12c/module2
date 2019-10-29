@@ -7,4 +7,4 @@ $manager = new StudentManager();
 
 $index = $_GET['id'];
 $manager->delete($index);
-header("Location:../index.php");
+header("Location:../Create_object.php");

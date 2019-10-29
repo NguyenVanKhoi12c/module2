@@ -15,4 +15,4 @@ $target = "../upload/" . basename($image);
 $student = new Student($name, $phone,$target);
 $manager->update($id, $student);
 move_uploaded_file($_FILES['image']['tmp_name'], $target);
-header("Location:../index.php");
+header("Location:../Create_object.php");

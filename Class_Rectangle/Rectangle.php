@@ -1,5 +1,6 @@
 <?php
 
+
 class Rectangle
 {
     public $width;
@@ -11,9 +12,20 @@ class Rectangle
         $this->height = $height;
     }
 
+    public function getWidth()
+    {
+        return $this->width;
+    }
+
+
+    public function getHeight()
+    {
+        return $this->height;
+    }
+
     public function getArea()
     {
-        return $this->height * $this->width;
+        return $this->width * $this->height;
     }
 
     public function getPerimeter()
@@ -23,17 +35,7 @@ class Rectangle
 
     public function display()
     {
-        return (($this->width + $this->height) * 2);
+        return ("dien tich hinh chu nhat la :" . $this->getArea() . "<br>" . "chu vi hinh chu nhat la" . $this->getPerimeter());
     }
 
-    public function disphay()
-    {
-        echo "chu vi hinh chu nhat la" . $this->getPerimeter() . "<br" . "dien tich hinh chu nhat la " . $this->getArea();
-    }
 }
-
-$width = 10;
-$height = 20;
-$rectangle = new Rectangle($width, $height);
-$rectangle->display();
-?>

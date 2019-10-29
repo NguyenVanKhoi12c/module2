@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     if (isset($_GET["id"])) {
         $id = $_GET["id"];
         $managerOrder->delOrder($id);
-        header("Location:../index.php");
+        header("Location:../Create_object.php");
     }
 }
 ?>

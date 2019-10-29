@@ -23,7 +23,7 @@ class MyList
         if ($index < 0 && $index > $this->size()) {
             array_splice($this->myList, $index, 1);
         } else {
-            die("Error: no index in array");
+            die("Error: no Create_object in array");
         }
     }
 }
