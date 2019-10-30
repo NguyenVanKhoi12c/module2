@@ -2,17 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d7efb07-d895-4478-b493-9951ecd36e2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Create_object/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Create_object/person.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION4/Class_Cricle_Cylinder/Cricle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION4/Class_Cricle_Cylinder/Cylinder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION4/Class_Cricle_Cylinder/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION4/Class_QuadraticEquation/QuadraticEquation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION4/Class_QuadraticEquation/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION4/Class_Rectangle/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SESSION4/Class_StopWatch/StopWatch.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SESSION3/RectangularLayer/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/SESSION3/RectangularLayer/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SESSION6/method_arrayList/Mylist.php" beforeDir="false" afterPath="$PROJECT_DIR$/SESSION6/method_arrayList/Mylist.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StafManger-php/CRUD/DELETE.php" beforeDir="false" afterPath="$PROJECT_DIR$/StafManger-php/CRUD/DELETE.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StafManger-php/CRUD/INSERT.php" beforeDir="false" afterPath="$PROJECT_DIR$/StafManger-php/CRUD/INSERT.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StafManger-php/CRUD/UPDATE.php" beforeDir="false" afterPath="$PROJECT_DIR$/StafManger-php/CRUD/UPDATE.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classicmodrls/CRUD/del.php" beforeDir="false" afterPath="$PROJECT_DIR$/classicmodrls/CRUD/del.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classicmodrls/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/classicmodrls/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class_Rectangle/Rectangle.php" beforeDir="false" afterPath="$PROJECT_DIR$/SESSION4/Class_Rectangle/Rectangle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class_Rectangle/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classicmodrls/CRUD/del.php" beforeDir="false" afterPath="$PROJECT_DIR$/SESSION4/classicmodrls/CRUD/del.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classicmodrls/class/Customers.php" beforeDir="false" afterPath="$PROJECT_DIR$/SESSION4/classicmodrls/class/Customers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classicmodrls/class/DBconnect.php" beforeDir="false" afterPath="$PROJECT_DIR$/SESSION4/classicmodrls/class/DBconnect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classicmodrls/class/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/SESSION4/classicmodrls/class/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classicmodrls/class/OrderManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/SESSION4/classicmodrls/class/OrderManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classicmodrls/class/Pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/SESSION4/classicmodrls/class/Pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classicmodrls/class/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/SESSION4/classicmodrls/class/Products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classicmodrls/class/StatusConstant.php" beforeDir="false" afterPath="$PROJECT_DIR$/SESSION4/classicmodrls/class/StatusConstant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classicmodrls/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/SESSION4/classicmodrls/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classicmodrls/order_detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/SESSION4/classicmodrls/order_detail.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,14 +47,17 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Module2\SESSION4\Class_StopWatch" />
+      <recent name="C:\xampp\htdocs\Module2\SESSION4" />
+      <recent name="C:\xampp\htdocs\Module2\StafManger-php\class" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\Module2\StafManger-php\image" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\Module2\StafManger-php\class" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -59,6 +71,16 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MyClass.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/SESSION5/MyClass.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.MyClass.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -91,7 +113,8 @@
       <workItem from="1571792612652" duration="2556000" />
       <workItem from="1571816692644" duration="40000" />
       <workItem from="1572224696617" duration="9382000" />
-      <workItem from="1572310678265" duration="3168000" />
+      <workItem from="1572310678265" duration="21025000" />
+      <workItem from="1572397152550" duration="7670000" />
     </task>
     <servers />
   </component>

@@ -12,17 +12,6 @@ class Rectangle
         $this->height = $height;
     }
 
-    public function getWidth()
-    {
-        return $this->width;
-    }
-
-
-    public function getHeight()
-    {
-        return $this->height;
-    }
-
     public function getArea()
     {
         return $this->width * $this->height;
@@ -30,12 +19,11 @@ class Rectangle
 
     public function getPerimeter()
     {
-        return (($this->width + $this->height) * 2);
+        return ($this->width + $this->height) * 2;
     }
 
     public function display()
     {
-        return ("dien tich hinh chu nhat la :" . $this->getArea() . "<br>" . "chu vi hinh chu nhat la" . $this->getPerimeter());
+        return ("dien tich hinh chu nhat la : " . $this->getArea() . "<br>" . "chu vi hinh chu nhat la : " . $this->getPerimeter() );
     }
-
 }
